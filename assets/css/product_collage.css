@@ -1,0 +1,207 @@
+.product_collage__head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_collage__page_counter{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product_collage__page_counter .swiper-button-prev-custom{
+    order: -1;
+}
+
+.product_collage__page_counter .swiper-button-prev-custom,
+.product_collage__page_counter .swiper-button-next-custom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16px!important;
+    min-width: 20px!important;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.product_collage__page_counter .swiper-button-prev-custom img,
+.product_collage__page_counter .swiper-button-next-custom img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* .product_collage__page_counter .swiper-button-prev-custom img{
+    transform: scale(-1,1);
+} */
+
+.swiper-button-prev-custom:hover,
+.swiper-button-next-custom:hover{
+    scale: 1.1;
+}
+
+
+.swiper-button-prev-custom.swiper-button-disabled,
+.swiper-button-next-custom.swiper-button-disabled{
+    opacity: 0.7;
+}
+
+.product_collage__page_counter .swiper-button-prev::after,
+.product_collage__page_counter .swiper-button-next::after{
+    content: unset!important;
+}
+
+.product_collage__page_counter .swiper-pagination-fraction{
+    color: #2C2C2C;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.product_collage__page_counter .swiper-pagination-current{
+    color: #9FB2A2
+}
+
+.product_collage__slider{
+    margin-top: 32px;
+}
+
+.product_collage__slider .swiper-slide{
+    min-height: 400px;
+    /* background-color: red; */
+}
+
+
+.swiper-slide{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.swiper-slide img{
+    max-width: 150px;
+    /* height: 300px; */
+    object-fit: contain;
+}
+
+.swiper-slide__img_wrap{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: calc(22px + 16px);
+}
+
+.swiper-slide__img_wrap img{
+    transform: translateX(18%);
+}
+
+.slide__img_landing{
+    position: absolute;
+    height: 55%;
+    border-radius: 8px;
+    width: 100%;
+    bottom: -22px;
+    left: 0;
+    background-color: #F4F4F4;
+    z-index: -1;
+}
+
+.swiper-pagination-lock ~ *{
+    display: none!important;
+}
+
+.product_collage__card_description{
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_collage__card_options{
+    margin-bottom: 16px;
+}
+
+.product_collage__card_options{
+    display: flex;
+    gap:8px
+}
+
+.product_collage__card_option{
+    --border-color:transparent;
+    --bg:transparent;
+    background: var(--bg);
+    display: inline-flex;
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid ;
+    border-color:var(--border-color);
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 0;
+    font-weight: 500;
+    text-decoration: none;
+    color:#2C2C2C
+}
+
+.product_collage__card_option.active{
+    --border-color: #000!important;
+    border-width: 2px;
+}
+
+.product_collage__card_score{
+    font-size: 13px;
+    line-height: 1.1;
+    color: #8B8B8B;
+}
+
+.product_collage__card_price{
+    font-weight: 600;
+    line-height: 1.1;
+    color: #2C2C2C;
+}
+
+.product_collage__card_raitin{
+    display: flex;
+    gap: 4px;
+}
+
+.product_collage__bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.product_collage__container{
+    margin-bottom: 64px;
+}
+
+.custom-bullet{
+    border-radius: 0px;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+
+
+
+.custom-bullet.swiper-pagination-bullet{
+    color: #9FB2A2;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.custom-bullet.swiper-pagination-bullet-active{
+    color: #000;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 700;
+}

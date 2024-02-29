@@ -1,0 +1,40 @@
+
+
+.marquee__container{
+    overflow: hidden;
+    padding: 40px 0;
+    border-top: 1px solid #2C2C2C;
+    border-bottom: 1px solid #2C2C2C;
+}
+
+.marquee__container,
+.marquee__list,
+.marquee__list_item{
+    display: flex;
+    align-items: center;
+}
+
+/* .marquee__container, */
+.marquee__list{
+    gap:80px;
+    padding: 0 40px;
+    /* min-width: 100vw; */
+    width: max-content;
+    animation: slide 10s linear infinite;
+}
+
+
+.marquee__list_item{
+    gap: 24px;
+    font-size: 44px;
+    white-space: nowrap;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,47 @@
+
+
+.main_banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+}
+
+.main_banner img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main_banner__col{
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.main_banner__content{
+    margin-left: auto;
+    width: 100%;
+    padding: var(--container-paddings);
+    max-width: calc(var(--container-width) / 2);
+}
+
+.main_banner__h1{
+    font-size: 81px;
+    -webkit-text-stroke: 2px #D9E402; /* Параметры контура */
+      color: transparent; /* Прозрачный цвет */
+    font-weight: 800;
+    line-height: .87;
+}
+
+.main_banner__p{
+    color: #F2F6F9;
+    font-size: 20px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
