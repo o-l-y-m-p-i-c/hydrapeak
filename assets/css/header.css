@@ -207,8 +207,8 @@
 .menu.active{
     position: absolute;
     left: 0;
-    top: 60px;
-    height: calc(100vh - 60px);
+    top: var(--header-height);
+    height: calc(100vh - var(--header-height));
     width: 100%;
     background-color: rgba(0, 0, 0,.7);
     display: grid;
