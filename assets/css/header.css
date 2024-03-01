@@ -136,7 +136,7 @@
     background-color: #FFF;
     /* background-color: red; */
     left: 0;
-    top: calc(99%);
+    top: calc(100% - 2px);
     border-bottom: 1px solid #2C2C2C;
     border-top: 1px solid #2C2C2C;
 }
@@ -181,8 +181,8 @@
 } */
 
 .has_icon{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
 }
 /* 
 .list_outer ul li:first-child:after{
@@ -219,6 +219,19 @@
     padding: 40px 72px;
     overflow: hidden;
     background-color: #9AD1BA;
+}
+
+.menu_col_inner__nav{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.menu_col_inner__nav a{
+    color: #2C2C2C;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 0;
 }
 
 .huge_menu{
