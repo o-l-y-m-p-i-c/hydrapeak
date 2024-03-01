@@ -1,0 +1,35 @@
+.contact_adds__section .container{
+    min-height: unset;
+}
+
+.contact_adds__container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* max-width: 910px; */
+    column-gap: 64px;
+    row-gap: 32px;
+    padding: 0 59px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #2C2C2C;
+}
+
+.contact_adds__item{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+
+.contact_adds__img{
+    max-width: 90px;
+    margin: 0 auto;
+}
+
+.contact_adds__h2{
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.contact_adds__btn{
+
+}

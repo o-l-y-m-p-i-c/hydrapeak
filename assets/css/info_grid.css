@@ -1,0 +1,44 @@
+.info_grid__section .container{
+    padding-top: 40px;
+    min-height: auto;
+    padding: 110px;
+}
+
+.info_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 108px;
+}
+
+.info_grid__col{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.info_grid__col_h2{
+    font-size: 32px;
+    line-height: 1.1;
+    padding-bottom: 8px;
+    color: #000;
+    font-weight: 600;
+}
+
+.info_grid__col_h3{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 700;
+}
+
+.info_grid__col_p{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+}
+
+.info_grid__col_a{
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+}

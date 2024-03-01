@@ -1,6 +1,6 @@
 :root{
     --section-gap:64px;
-    --header-height: 68px;
+    --header-height: 74px;
     --container-width: 1340px;
     --container-min-height:600px;
     --container-paddings: 0px 20px;
@@ -25,6 +25,13 @@ body{
     line-height: var(--main-text-line-height);
     font-weight: var(--main-text-weight);
     background: var(--body-bg-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: auto;
 }
 
 .container{
@@ -52,7 +59,9 @@ h2{
 }
 
 .btn{
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     text-decoration: none;
     appearance: none;

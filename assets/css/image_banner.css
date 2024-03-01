@@ -1,0 +1,17 @@
+
+
+.img_banner{
+    display: flex;
+    justify-content: center;
+    /* max-width: 1920px; */
+}
+
+.img_banner__img{
+    /* margin: 0 auto; */
+    display: block;
+    width: 100%;
+    max-width: 1920px;
+    min-height: 438px;
+    max-height: 50vh;
+    object-fit: contain;
+}

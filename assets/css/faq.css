@@ -42,3 +42,51 @@
 .js-btn{
     cursor: pointer;
 }
+
+.faq_page__container{
+    display: grid;
+    grid-template-columns: 0.23fr 0.77fr;
+    gap: 104px;
+}
+
+.faq_page__inner_section{
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.faq_page__inner_title{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #2C2C2C;
+    margin-bottom: 8px;
+}
+
+.faq_page__aside_list_item{
+    list-style: none;
+}
+
+.faq_page__aside_list_link{
+    display: block;
+    color: #2C2C2C;
+    line-height: 3;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.faq_page__aside_list_item.active .faq_page__aside_list_link{
+    font-weight:700;
+}
+
+.faq_page__aside_inner{
+    position: sticky;
+    position: -webkit-sticky;
+    top: var(--header-height);
+    max-height: calc(100vh - var(--header-height) - 20px);
+    overflow-y: auto;
+    padding-right: 20px;
+}
+
+.faq_page__aside{
+    padding-bottom: 110px;
+}

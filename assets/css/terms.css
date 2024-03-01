@@ -1,0 +1,18 @@
+.terms__section h2{
+    font-size: 27px;
+    padding-bottom: 24px;
+}
+
+.terms__section h2 ~ p:first-of-type{
+    padding-top: 0;
+}
+
+.terms__section p{
+    padding-top: 22px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.terms__section .container{
+    gap: 48px;
+}

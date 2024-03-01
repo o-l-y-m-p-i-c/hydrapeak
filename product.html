@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="./assets/css/video_banner.css">
     <link rel="stylesheet" href="./assets/css/collage.css">
     <link rel="stylesheet" href="./assets/css/product_collage.css">
+    <link rel="stylesheet" href="./assets/css/product_slider.css">
     <link rel="stylesheet" href="./assets/css/faq.css">
+    <link rel="stylesheet" href="./assets/css/text_img_slider.css">
 </head>
 <body>
     <!-- header-scrolled -->
@@ -266,7 +268,7 @@
                     </nav>
                 </div>
                 <div class="header__col">
-                    <a href="index.html" class="header_logo">
+                    <a href="/" class="header_logo">
                         <img src="./assets/img/Logo.svg" alt="Logo">
                     </a>
                 </div>
@@ -285,7 +287,9 @@
                             </label>
                         </li>
                         <li class="header__nav_item has_icon">
-                            <img src="./assets/img/shopping_cart.svg" alt="Cart">
+                            <a href="cart.html">
+                                <img src="./assets/img/shopping_cart.svg" alt="Cart">
+                            </a>
                         </li>
                         <li class="header__nav_item">
                             <a href="login.html" >
@@ -341,27 +345,8 @@
     </header>  
     <main>
         <section id="main-banner" style="background-color:#B4C6B8">
-            <div class="main_banner">
-                <div class="main_banner__col">
-                    <img src="./assets/img/product1.png" style="position: relative; z-index:1; height: auto; width: auto; margin: auto;" alt="">
-                    <!-- <img src="./assets/img/BannerImg1.png" alt=""> -->
-                </div>
-                <div class="main_banner__col">
-                    <div class="main_banner__content" style="margin-left: 0">
-                        <h1 class="main_banner__h1">
-                            VOYAGER TUMBLER
-                        </h1>
-                        <p class="main_banner__p" style="margin-top: 24px;">
-                            better taste with every sip.
-                            <br>
-                            get ready for new drop.
-                        </p>
-                        <a href="collections.html" class="btn btn-forth" style="margin-top: 32px;">
-                            SHOP NOW
-                        </a>
-                    </div>
-                    <!-- <img src="./assets/img/BannerImg2.png" alt=""> -->
-                </div>
+            <div class="main_banner" style="display: flex; justify-content:center; align-items:center">
+                PRODUCT SECTION TEMPLATE FROM SHOPFY
             </div>
             
         </section>
@@ -400,8 +385,79 @@
                 </ul>
             </div>
         </div>
-        <section class="section">
-            <div class="container"></div>
+        <section class="section" style="background-color:#F7F7F9">
+            <div class="container" style="padding-bottom: 64px;">
+                <div class="text_img_slider__container">
+                    <div class="text_img_slider__col">
+                        <div class="swiper mySwiper5" style="width: 100%">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                <div class="text_img_slider__content_box">
+                                  
+                                    <h2 class="text_img_slider__h2">
+                                        Built for long trips
+                                        <span style="display: block; color:#7D9782">
+                                            and generous sips
+                                        </span>
+                                    </h2>
+                                    <h3 class="text_img_slider__h3">
+                                        SPILL & LEAK RESISTANT
+                                    </h3>
+                                    <p class="text_img_slider__p">
+                                        If you're looking for an insulated coffee tumbler with straw that won't leak or spill, look no further! Our coffee travel mug's design stops spills when hitting bumps on the road, or when taking it on a jog.
+                                    </p>
+                                    
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="text_img_slider__content_box">
+                                  
+                                    <h2 class="text_img_slider__h2">
+                                        Built for long trips
+                                        <span style="display: block; color:#7D9782">
+                                            and generous sips
+                                        </span>
+                                    </h2>
+                                    <h3 class="text_img_slider__h3">
+                                        SPILL & LEAK RESISTANT
+                                    </h3>
+                                    <p class="text_img_slider__p">
+                                        If you're looking for an insulated coffee tumbler with straw that won't leak or spill, look no further! Our coffee travel mug's design stops spills when hitting bumps on the road, or when taking it on a jog.
+                                    </p>
+                                    
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="" style="position: relative; margin-top: 32px; display: flex; align-items: center; justify-content: flex-start;">
+                            <div class="swiper-button-prev-custom2" style="position: relative;">
+                                <img src="./assets/img/chevron_left.svg" alt="">
+                            </div>
+                            <div class="product-pagination-234" ></div>
+                            <div class="swiper-button-next-custom2" style="position: relative;">
+                                <img src="./assets/img/chevron_right.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text_img_slider__col">
+                        <div class="swiper mySwiper6" style="width: 100%">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                <img src="./assets/img/r2.png" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/img/r1.png" alt="">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </section>
         <div id="video-banner" class="section">
             <div class="video_banner">
@@ -426,15 +482,61 @@
                 </video>
             </div>
         </div>
-        <section class="section">
-            <div class="container"></div>
+        <section class="section product_slider__section" style="background-color:#CFBBC7 ;">
+            <div class="container">
+                <div class="product_slider__container">
+                    <div class="product_slider__col">
+                        <h2 class="product_slider__title">
+                            Tumbler
+                            <span>
+                                dimensions
+                            </span>
+                            
+                        </h2>
+                        <ul class="product_slider__navigation_list">
+                            <li class="product_slider__navigation_item">
+                                42 oz
+                            </li>
+                            <li class="product_slider__navigation_item active">
+                                35 oz
+                            </li>
+                            <li class="product_slider__navigation_item">
+                                25 oz
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product_slider__col">
+                        <img src="./assets/img/big_product.png" alt="">
+                    </div>
+                    <div class="product_slider__col">
+                        <div class="product_slider__add">
+                            <img src="./assets/img/snow.png" alt="">
+                            <p>
+                                24 hours cold
+                            </p>
+                        </div>
+                        <div class="product_slider__add">
+                            <img src="./assets/img/snow.png" alt="">
+                            <p>
+                                Made with food-grade 18/8 stainless steel
+                            </p>
+                        </div>
+                        <div class="product_slider__add">
+                            <img src="./assets/img/snow.png" alt="">
+                            <p>
+                                BRA free
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="faq" class="section">
-            <div class="container">
+            <div class="container" style="min-height: auto;">
                 <h2>
                     FAQ
                 </h2>
-                <div class="faq__container">
+                <div class="faq__container" style="padding-bottom: 0px">
                     <div class="faq__row js-faq">
                         <div class="faq__head">
                             <div class="faq__head_col">
@@ -531,8 +633,8 @@
             </div>
         </section>
         <section id="products" class="section">
-            <div class="container">
-                <div class="product_collage__container">
+            <div class="container" style="padding-bottom: 112px;">
+                <div class="product_collage__container" style="margin-bottom: 0">
                     <div class="product_collage__head">
                         <h2>
                             New drops
@@ -551,10 +653,150 @@
                     <div class="product_collage__slider">
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
+                                <div class="swiper-slide js-product-card">
+                                    <div class="swiper mySwiper2" style="width: 100%">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="product_collage__card_content">
+                                        <div class="product_collage__card_options" >
+                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
+                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
+                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
+                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
+                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
+                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
+                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
+                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
+                                            <!-- <a href="product.html" class="product_collage__card_option more" style="--border-color:#2C2C2C">
+                                                +15
+                                            </a> -->
+                                        </div>
+                                        <div class="swiper mySwiper3" style="width: 100%">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #1
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <!-- <img src="./assets/img/star.svg" alt=""> -->
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #2
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #3
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-slide js-product-card">
+                                    <div class="swiper mySwiper2" style="width: 100%">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="product_collage__card_content">
                                         <div class="product_collage__card_options" >
@@ -566,10 +808,141 @@
                                             <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
                                             <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
                                             <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
+                                            <a href="product.html" class="product_collage__card_option more" style="--border-color:#2C2C2C">
                                                 +15
                                             </a>
                                         </div>
+                                        <div class="swiper mySwiper3" style="width: 100%">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #1
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <!-- <img src="./assets/img/star.svg" alt=""> -->
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #2
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #3
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #4
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #5
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #6
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn-third">
+                                        ADD TO BAG
+                                    </a> -->
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide__img_wrap">
+                                        <img src="./assets/img/products/cup1 1.png" alt="">
+                                        <div class="slide__img_landing"></div>
+                                    </div>
+                                    <div class="product_collage__card_content">
+                                       
                                         <h3 class="product_collage__card_title">
                                             Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
                                         </h3>
@@ -589,10 +962,150 @@
                                         ADD TO BAG
                                     </a>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
+                                <div class="swiper-slide js-product-card">
+                                    <div class="swiper mySwiper2" style="width: 100%">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="product_collage__card_content">
+                                        <div class="product_collage__card_options" >
+                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
+                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
+                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
+                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
+                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
+                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
+                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
+                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
+                                            <!-- <a href="product.html" class="product_collage__card_option more" style="--border-color:#2C2C2C">
+                                                +15
+                                            </a> -->
+                                        </div>
+                                        <div class="swiper mySwiper3" style="width: 100%">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #1
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <!-- <img src="./assets/img/star.svg" alt=""> -->
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #2
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #3
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-slide js-product-card">
+                                    <div class="swiper mySwiper2" style="width: 100%">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="swiper-slide__img_wrap">
+                                                    <img src="./assets/img/products/cup1 1.png" alt="">
+                                                    <div class="slide__img_landing"></div>
+                                                </div> 
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="product_collage__card_content">
                                         <div class="product_collage__card_options" >
@@ -604,28 +1117,133 @@
                                             <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
                                             <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
                                             <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
+                                            <a href="product.html" class="product_collage__card_option more" style="--border-color:#2C2C2C">
                                                 +15
                                             </a>
                                         </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
+                                        <div class="swiper mySwiper3" style="width: 100%">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #1
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <!-- <img src="./assets/img/star.svg" alt=""> -->
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #2
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #3
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #4
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #5
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <h3 class="product_collage__card_title">
+                                                        Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
+                                                    </h3>
+                                                    <div class="product_collage__card_description">
+                                                        <span class="product_collage__card_price">$24.99</span>
+                                                        <div class="product_collage__card_raiting">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                            <img src="./assets/img/star.svg" alt="">
+                                                        </div>
+                                                        <span class="product_collage__card_score">4.8 (1719)</span>
+                                                    </div>  
+                                                    <a href="#" class="btn btn-third">
+                                                        ADD TO BAG #6
+                                                    </a>
+                                                </div>
                                             </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="btn btn-third">
+                                    <!-- <a href="#" class="btn btn-third">
                                         ADD TO BAG
-                                    </a>
+                                    </a> -->
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="swiper-slide__img_wrap">
@@ -633,513 +1251,7 @@
                                         <div class="slide__img_landing"></div>
                                     </div>
                                     <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
-                                        <h3 class="product_collage__card_title">
-                                            Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
-                                        </h3>
-                                        <div class="product_collage__card_description">
-                                            <span class="product_collage__card_price">$24.99</span>
-                                            <div class="product_collage__card_raiting">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                                <img src="./assets/img/star.svg" alt="">
-                                            </div>
-                                            <span class="product_collage__card_score">4.8 (1719)</span>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="btn btn-third">
-                                        ADD TO BAG
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="swiper-slide__img_wrap">
-                                        <img src="./assets/img/products/cup1 1.png" alt="">
-                                        <div class="slide__img_landing"></div>
-                                    </div>
-                                    <div class="product_collage__card_content">
-                                        <div class="product_collage__card_options" >
-                                            <!-- NEED TO ADD SLIDER INTO PRODUCT -->
-                                            <span class="product_collage__card_option active" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); "></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <!-- <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span> -->
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <span class="product_collage__card_option" style="--bg:linear-gradient(0.25turn, #C3C2C0, #CFCECC); border-width: 0px;"></span>
-                                            <a href="product.html" class="product_collage__card_option" style="--border-color:#2C2C2C">
-                                                +15
-                                            </a>
-                                        </div>
+                                       
                                         <h3 class="product_collage__card_title">
                                             Voyager 40 oz Tumbler With Handle and Straw Lid - Pale Sage
                                         </h3>
@@ -1366,7 +1478,89 @@
         document.querySelector('.header__burger').onclick = () =>{
             document.querySelector('.menu').classList.toggle('active');
         }
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".mySwiper4", {
+            slidesPerView: 1,
+            effect: "fade",
+            fadeEffect: {
+                crossFade: true,
+            },
+            speed: 100,
+            // navigation: true,
+            // pagination: {
+            //     el: '.product-pagination-234',
+            //     type: "fraction"
+            // }
+        });
+
+       
+
+        var swiper6 = new Swiper(".mySwiper6", {
+            slidesPerView: 1,
+            effect:'fade',
+            allowTouchMove: false,
+            fadeEffect: {
+                crossFade: true,
+            },
+            speed: 100,
+    
+            
+        });
+
+        var swiper5 = new Swiper(".mySwiper5", {
+            slidesPerView: 1,
+            effect:'fade',
+            fadeEffect: {
+                crossFade: true,
+            },
+            speed: 100,
+            navigation: true,
+            pagination: {
+                el: '.product-pagination-234',
+                type: "fraction"
+            },
+            navigation: {
+                nextEl: ".swiper-button-next-custom2",
+                prevEl: ".swiper-button-prev-custom2",
+            },
+            thumbs: {
+                swiper: swiper6,
+            },
+        });
+
+
+        const cardContentArr = document.querySelectorAll('.js-product-card')
+
+
+cardContentArr.forEach(cardContent => {
+    const slider = cardContent.querySelector('.mySwiper2')
+
+    const slider2 = cardContent.querySelector('.mySwiper3')
+
+
+    var swiper2 = null;
+    var swiper3 = null 
+    if(slider){
+        swiper2 = new Swiper(slider, {
+            slidesPerView: 1,
+            allowTouchMove: false
+        });
+    }
+    if(slider2){
+        swiper3 = new Swiper(slider2, {
+            slidesPerView: 1,
+            allowTouchMove: false,
+            speed: 0,
+            effect: "fade",
+            fadeEffect: {
+                crossFade: true,
+            },
+        });
+    }
+
+    const mainSwipers = document.querySelectorAll(".mySwiper")
+
+    mainSwipers.forEach(mainSwiper =>{
+        var swiper = new Swiper(mainSwiper, {
             slidesPerView: 4,
             grid: {
                 rows: 1,
@@ -1386,6 +1580,34 @@
                 type: "fraction"
             }
         });
+    })
+
+    var optionButtons = cardContent.querySelectorAll('.product_collage__card_option');
+
+    optionButtons.forEach(function (button, index) {
+    button.addEventListener('click', function (e) {
+        if(swiper2){
+            swiper2.slideTo(index);
+        }
+        if(swiper3){
+            swiper3.slideTo(index);
+        }
+        
+        const allRelatedBtns = e.currentTarget.parentNode.querySelectorAll('.product_collage__card_option:not(.more)')
+        allRelatedBtns.forEach((item) => {
+            if(item !== e.currentTarget){
+                item.classList.remove('active');
+                item.style.borderWidth = '0px'
+            }else{
+                item.classList.add('active');
+                item.style.borderWidth = '2px'
+            }
+        })
+    });
+});
+
+})
+
     </script>
 </body>
 </html>
