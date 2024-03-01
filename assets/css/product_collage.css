@@ -68,7 +68,7 @@
 
 .product_collage__slider>.mySwiper>.swiper-wrapper>.swiper-slide{
     min-height: 400px;
-    height: auto;
+    height: auto!important;
     /* background-color: red; */
 }
 
